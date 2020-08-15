@@ -14,7 +14,7 @@ package com.github.yingzhuo.codegen4j;
  * @author 应卓
  * @since 0.0.1
  */
-public class Booleans implements RandomGen {
+public final class Booleans implements RandomGen {
 
     private Booleans() {
     }

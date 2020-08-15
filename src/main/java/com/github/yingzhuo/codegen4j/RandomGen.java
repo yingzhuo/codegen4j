@@ -10,6 +10,9 @@ package com.github.yingzhuo.codegen4j;
 
 import java.util.Random;
 
+/**
+ * 内部工具
+ */
 interface RandomGen {
 
     public static final Random RANDOM = new Random();

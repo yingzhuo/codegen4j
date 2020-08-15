@@ -11,7 +11,7 @@ package com.github.yingzhuo.codegen4j;
 /**
  * 内部工具
  */
-class Validate {
+final class Validate {
 
     private static final String DEFAULT_IS_TRUE_EX_MESSAGE = "The validated expression is false";
 
@@ -29,4 +29,5 @@ class Validate {
             throw new IllegalArgumentException(DEFAULT_IS_TRUE_EX_MESSAGE);
         }
     }
+
 }
