@@ -8,7 +8,11 @@
  */
 package com.github.yingzhuo.codegen4j;
 
+/**
+ * 内部工具
+ */
 class Validate {
+
     private static final String DEFAULT_IS_TRUE_EX_MESSAGE = "The validated expression is false";
 
     private Validate() {

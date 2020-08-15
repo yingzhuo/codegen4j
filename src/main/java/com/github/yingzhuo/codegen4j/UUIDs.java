@@ -10,20 +10,26 @@ package com.github.yingzhuo.codegen4j;
 
 import java.util.UUID;
 
+/**
+ * UUID生成工具
+ *
+ * @author 应卓
+ * @since 0.0.1
+ */
 public final class UUIDs {
 
     private UUIDs() {
     }
 
-    public static String uuid() {
+    public static String next() {
         return UUID.randomUUID().toString();
     }
 
-    public static String uuid36() {
+    public static String next36() {
         return UUID.randomUUID().toString();
     }
 
-    public static String uuid32() {
+    public static String next32() {
         return UUID.randomUUID().toString().replaceAll("-", "");
     }
 

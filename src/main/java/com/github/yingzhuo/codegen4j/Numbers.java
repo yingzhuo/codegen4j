@@ -8,6 +8,12 @@
  */
 package com.github.yingzhuo.codegen4j;
 
+/**
+ * 随机数生成工具
+ *
+ * @author 应卓
+ * @since 0.0.1
+ */
 public final class Numbers implements RandomGen {
 
     private Numbers() {

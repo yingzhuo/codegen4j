@@ -8,6 +8,12 @@
  */
 package com.github.yingzhuo.codegen4j;
 
+/**
+ * 随机布尔值生成工具
+ *
+ * @author 应卓
+ * @since 0.0.1
+ */
 public class Booleans implements RandomGen {
 
     private Booleans() {

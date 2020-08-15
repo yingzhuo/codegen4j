@@ -13,7 +13,19 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Hashids {
+/**
+ * Hashids designed for Generating short hashes from numbers (like YouTube and Bitly), obfuscate
+ * database IDs, use them as forgotten password hashes, invitation codes, store shard numbers.
+ * <p>
+ * This is implementation of http://hashids.org v1.0.0 version.
+ * <p>
+ * This implementation is immutable, thread-safe, no lock is necessary.
+ *
+ * @author <a href="mailto:fanweixiao@gmail.com">fanweixiao</a>
+ * @author <a href="mailto:terciofilho@gmail.com">Tercio Gaudencio Filho</a>
+ * @since 0.3.3
+ */
+public final class Hashids {
 
     public static final long MAX_NUMBER = 9007199254740992L;
 
