@@ -14,7 +14,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Hashids designed for Generating short hashes from numbers (like YouTube and Bitly), obfuscate
+ * Hashids designed for Generating short hashes from numbers (like YouTube), obfuscate
  * database IDs, use them as forgotten password hashes, invitation codes, store shard numbers.
  * <p>
  * This is implementation of http://hashids.org v1.0.0 version.
@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
  *
  * @author <a href="mailto:fanweixiao@gmail.com">fanweixiao</a>
  * @author <a href="mailto:terciofilho@gmail.com">Tercio Gaudencio Filho</a>
- * @since 0.3.3
+ * @since 0.0.1
  */
 public final class Hashids {
 
