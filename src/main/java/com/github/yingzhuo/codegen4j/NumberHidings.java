@@ -24,7 +24,7 @@ public final class NumberHidings {
     public static String hide(long number) {
         Validate.isTrue(number >= 0, "Number cannot be negative.");
 
-        if (number >= 9007199254740992L) {
+        if (number >= MAX) {
             String numberString = String.valueOf(number);
             int length = numberString.length();
             String part1 = numberString.substring(0, length / 2);
